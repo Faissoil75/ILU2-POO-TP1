@@ -133,7 +133,7 @@ public class Village {
 	    return chaine.toString();
 	}
 	
-	private static class Marche{
+	private class Marche{
 		private Etal[] tabEtal;
 		
 		private Marche(int nbEtal) {
